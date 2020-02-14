@@ -1,0 +1,180 @@
+body {
+  background-color: #1d1d1b;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+p {
+  margin-bottom: 24px;
+}
+
+.full-hero {
+  height: 2000vh;
+}
+
+.sticky-container {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 16px;
+  padding-left: 16px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 128px;
+  grid-row-gap: 64px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.logo-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 64px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo-mark {
+  width: 256px;
+  margin-bottom: 16px;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.logo-text {
+  width: 256px;
+}
+
+.small-container {
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.accent-text {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.player-container {
+  position: relative;
+  padding: 64px;
+}
+
+.social-link-block {
+  margin-right: 16px;
+  margin-left: 16px;
+  -webkit-transition: color 300ms ease;
+  transition: color 300ms ease;
+  color: #fbbc4c;
+}
+
+.social-link-block:hover {
+  color: #fff;
+}
+
+.social-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 32px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.social-links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.separator {
+  display: inline-block;
+  width: 1px;
+  height: 32px;
+  margin-right: 16px;
+  margin-left: 16px;
+  background-color: #fbbc4c;
+}
+
+.cta-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 32px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .accent-text {
+    font-size: 14px;
+  }
+}
+
+@font-face {
+  font-family: 'Brushstrike';
+  src: url('../fonts/Brushstrike-trial.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nature Spirit Rough';
+  src: url('../fonts/NatureSpiritRough.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nature Spirit';
+  src: url('../fonts/NatureSpiritRegular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
