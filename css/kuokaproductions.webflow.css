@@ -12,6 +12,10 @@ p {
   margin-bottom: 24px;
 }
 
+a {
+  text-decoration: underline;
+}
+
 .full-hero {
   height: 2000vh;
 }
